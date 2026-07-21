@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: flask
-        image: image: 893410593871.dkr.ecr.ap-south-1.amazonaws.com/employee-management:latest
+        image: 893410593871.dkr.ecr.ap-south-1.amazonaws.com/employee-management:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
